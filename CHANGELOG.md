@@ -5,7 +5,7 @@
 ### MultiQC new features
 
 ### MultiQC updates
-- Updated RSeQC's geneBody_coverage plot. Normalized coverages ( y-axis values ) are calculated using a similar formula used by RSeQC tools (https://github.com/ewels/MultiQC/pull/1792) 
+- Updated RSeQC's geneBody_coverage plot. Normalized coverages ( y-axis values ) are calculated using a similar formula used by RSeQC (https://github.com/ewels/MultiQC/pull/1792) 
 - Bugfix: Make `config.data_format` work again ([#1722](https://github.com/ewels/MultiQC/issues/1722))
 - Bump minimum version of Jinja2 to `>=3.0.0` ([#1642](https://github.com/ewels/MultiQC/issues/1642))
 - Disable search progress bar if running with `--quiet` or `--no-ansi` ([#1638](https://github.com/ewels/MultiQC/issues/1638))
